@@ -1,0 +1,23 @@
+{
+  "name": "mocca-cafe-mailer",
+  "version": "1.0.0",
+  "description": "Service send email for system Mocca Cafe",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js"
+  },
+  "author": "mocca.io.vn",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "http-status": "^1.7.4",
+    "nodemailer": "^6.9.13"
+  }
+}
